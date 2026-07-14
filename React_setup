@@ -1,0 +1,44 @@
+Check node -v
+npm -v
+
+
+Create a React + Vite Project [
+
+npm create vite@latest
+
+Project name:
+
+Select a framework:
+> React
+
+Select a variant:
+> JavaScript
+
+cd my-react-app
+
+npm install         or        npm i
+
+clear
+
+npm run dev
+
+Short version  npm create vite@latest my-react-app -- --template react
+----------------------
+
+npm run build
+npm run preview
+npm install bootstrap
+
+
+]
+
+Backend
+
+Node.js
+Express.js
+
+Database
+
+PostgreSQL
+MongoDB
+
