@@ -1,0 +1,33 @@
+Download composer , when install disable avast , and check Laravel docs install guide
+run that in htdocs gitbash ,disable avast ,   ../ is use to out from the folder in path
+
+- >   composer create-project laravel/Laravel example-app
+ 
+
+Important Laravel Folders 
+
+app/                -> Controllers, Models
+resources/views/    -> Blade files
+routes/             -> Routes
+database/migrations -> Database tables
+public/             -> Public files
+Net Solutions web read 
+
+php -v
+composer -V
+cd myproject      		                          go into project folder
+
+php artisan list      	           			  in command prompt
+php artisan serve                  			  run the server #
+php artisan --version              			  check Laravel version
+php artisan make:controller UserController                create controller
+php artisan make:model User                               create model
+php artisan make:model Product -m                         create model with migration
+php artisan make:migration create_products_table          create migration , create... is name #
+php artisan migrate                                       run migration
+php artisan migrate:rollback                              undo last migration
+php artisan migrate:fresh                                 refresh database
+php artisan route:list                                    checking created routes
+php artisan make:view greeting			          creating greeting file in view folder #
+
+
